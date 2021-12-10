@@ -1,0 +1,23 @@
+.tabs {
+}
+
+.panel {
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: left;
+  background-color: #393939;
+}
+
+.tab {
+  display: inline-block;
+  padding: 3px 10px;
+  color: white;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  cursor: pointer;
+}
+
+.tab.selected {
+  background-color: #515151;
+}

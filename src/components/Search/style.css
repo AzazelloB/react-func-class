@@ -1,0 +1,23 @@
+form {
+  height: 25px;
+}
+
+input {
+  box-sizing: border-box;
+  height: 100%;
+  border: none;
+  outline: none;
+}
+
+button[type="submit"] {
+  height: 100%;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: #393939;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #515151;
+}
